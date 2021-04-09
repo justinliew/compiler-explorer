@@ -1,0 +1,1 @@
+docker run --rm -p 8080:1234 alpine/socat TCP-LISTEN:1234,fork TCP-CONNECT:172.17.0.2:10240
